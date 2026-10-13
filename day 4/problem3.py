@@ -1,5 +1,5 @@
 def sum(a,b):
-    c = a + b
-    print ("sum of two numbers is :",c)
+    return a + b
 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
-sum(numbers[0], numbers[1])
+result = sum(numbers[0], numbers[1])
+print("The sum of the first two numbers is:", result)
